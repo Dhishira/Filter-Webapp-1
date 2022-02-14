@@ -8,7 +8,7 @@ function setup()
     canvas = createCanvas(400 ,350);
     canvas.center();
     video = createCapture(VIDEO);
-    video.size(300, 350);
+    video.size(250, 300);
     video.hide();
 
     poseNet = ml5.poseNet(video,modelLoaded);
